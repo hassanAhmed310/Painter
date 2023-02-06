@@ -1,0 +1,54 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr 44fr 1fr;
+    grid-template-columns: 1fr 9fr 1fr 38fr 1fr;
+    grid-template-areas:
+    "a s s s s"
+    "a bar bar bar k"
+    "b n n n n"
+    "b tools m board l"
+    "footer footer footer footer footer";
+    background-color: rgb(0, 255, 0);
+}
+.bar{
+    background-color: white;
+    grid-area: bar;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding:0;
+}
+.tools{
+    background-color: white;
+    grid-area: tools;
+    border-radius: 30px;
+}
+.board{
+    background-color: white;
+    grid-area: board;
+    border-radius: 25px;
+}
+.footer{
+    background-color: inherit;
+    grid-area: footer;
+}
+button {
+    margin: 0 10px 0 10px;
+}
+img{
+    width: 80%;
+    height: 80%;
+    object-fit:contain;
+}
+button{
+    color: inherit;
+    background-color: inherit;
+    border: 2px solid rgb(0, 255, 0);
+    justify-self: center;
+    height: 80%;
+    border-radius: 100px;
+    margin: 5% 5px 0 0;
+}
+ 

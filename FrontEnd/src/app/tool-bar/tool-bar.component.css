@@ -1,0 +1,32 @@
+.tools{
+  justify-self: center;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  border-radius: 50px;
+}
+.drawShapes{
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr 4fr;
+}
+.shapes{
+  display: grid;
+  grid-template-areas: 
+  "x x x"
+  "x x x";
+}
+h4{
+  text-align: center;
+}
+button{
+  color: inherit;
+  background-color: inherit;
+  border: 2px solid rgb(0, 255, 0);
+  justify-self: center;
+  height: 80%;
+  border-radius: 100px;
+  margin: 5px 5px 5px 5px;
+}
